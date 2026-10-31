@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Pocket money and savings dashboard</title>
+  <desc id="description">A pocket money balance beside a witch's cauldron filled with gold coins, planned earnings, and savings freeze progress. Coins gently fall into the cauldron.</desc>
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-15%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="7"/>
+      <feGaussianBlur stdDeviation="11"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.19 0 0 0 0 0.17 0 0 0 0 0.35 0 0 0 0.07 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="1000" fill="#F7F7FB"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <!-- Balance and cauldron -->
+    <g filter="url(#cardShadow)">
+      <rect x="18" y="24" width="1404" height="353" rx="28" fill="#FFFFFF"/>
+    </g>
+    <text x="70" y="84" fill="#8A8799" font-size="15" font-weight="700" letter-spacing="1.1">YOUR MONEY POT</text>
+    <text x="70" y="171" fill="#25233A" font-size="76" font-weight="780" letter-spacing="-2">$24.50</text>
+    <rect x="70" y="196" width="185" height="39" rx="19.5" fill="#EAF8F0"/>
+    <circle cx="92" cy="215.5" r="6" fill="#42A875"/>
+    <text x="109" y="221" fill="#32865C" font-size="14" font-weight="700">All your money</text>
+    <text x="70" y="282" fill="#777587" font-size="16">Every coin counts. Keep going!</text>
+    <svg x="970" y="31" width="400" height="343" viewBox="0 0 420 360" aria-hidden="true">
+      <defs>
+        <linearGradient id="filled-pot" x1="120" y1="135" x2="300" y2="310" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#48454E"/>
+          <stop offset=".5" stop-color="#211F27"/>
+          <stop offset="1" stop-color="#09090D"/>
+        </linearGradient>
+        <linearGradient id="filled-coin-gold" x1="-18" y1="-8" x2="18" y2="10" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#FFF0A3"/>
+          <stop offset=".55" stop-color="#FFC83D"/>
+          <stop offset="1" stop-color="#D98519"/>
+        </linearGradient>
+        <clipPath id="filled-pot-mouth">
+          <path d="M94 0H326V124C326 150 278 163 210 163C142 163 94 150 94 124V0Z"/>
+        </clipPath>
+        <g id="filled-pot-coin">
+          <path d="M-19 0V8C-19 13-10 17 0 17S19 13 19 8V0" fill="#C77B16"/>
+          <ellipse cy="0" rx="19" ry="8" fill="url(#filled-coin-gold)" stroke="#FFE28A" stroke-width="1.5"/>
+          <path d="M-7 0H7M0-3V3" stroke="#E59B1C" stroke-width="2" stroke-linecap="round"/>
+        </g>
+        <style>
+          .filled-coin-drop { transform-box: fill-box; transform-origin: center; animation: filledCoinDrop 2.7s ease-in infinite; }
+          .filled-coin-drop.delay-one { animation-delay: -.9s; }
+          .filled-coin-drop.delay-two { animation-delay: -1.8s; }
+          @keyframes filledCoinDrop {
+            0% { transform: translateY(-5px) rotate(0); opacity: 0; }
+            12% { opacity: 1; }
+            72% { opacity: 1; }
+            100% { transform: translateY(112px) rotate(180deg); opacity: 0; }
+          }
+          @media (prefers-reduced-motion: reduce) {
+            .filled-coin-drop { animation: none; opacity: 1; transform: none; }
+          }
+        </style>
+      </defs>
+      <ellipse cx="210" cy="331" rx="139" ry="13" fill="#171522" fill-opacity=".12"/>
+      <path d="M129 282L116 321Q114 331 126 331H152L160 294ZM291 282L304 321Q306 331 294 331H268L260 294Z" fill="#15141B"/>
+      <ellipse cx="134" cy="329" rx="17" ry="8" fill="#09090D"/>
+      <ellipse cx="286" cy="329" rx="17" ry="8" fill="#09090D"/>
+      <path d="M91 150C60 132 42 143 45 160C48 177 69 181 94 168M329 150C360 132 378 143 375 160C372 177 351 181 326 168" stroke="#111016" stroke-width="15" stroke-linecap="round"/>
+      <path d="M82 137C82 122 139 110 210 110S338 122 338 137L321 246C315 286 271 312 210 312S105 286 99 246L82 137Z" fill="url(#filled-pot)"/>
+      <path d="M105 201C111 236 126 267 155 284" stroke="#77717F" stroke-opacity=".27" stroke-width="8" stroke-linecap="round"/>
+      <ellipse cx="210" cy="143" rx="111" ry="22" fill="#9A5116"/>
+      <ellipse cx="210" cy="136" rx="108" ry="21" fill="#E79B24"/>
+      <use href="#filled-pot-coin" transform="translate(111 135) rotate(-8) scale(.86)"/>
+      <use href="#filled-pot-coin" transform="translate(143 127) rotate(7) scale(.92)"/>
+      <use href="#filled-pot-coin" transform="translate(174 120) rotate(-5) scale(.94)"/>
+      <use href="#filled-pot-coin" transform="translate(205 117) rotate(6)"/>
+      <use href="#filled-pot-coin" transform="translate(237 121) rotate(-7) scale(.96)"/>
+      <use href="#filled-pot-coin" transform="translate(269 129) rotate(8) scale(.9)"/>
+      <use href="#filled-pot-coin" transform="translate(303 137) rotate(-6) scale(.82)"/>
+      <use href="#filled-pot-coin" transform="translate(125 147) rotate(7) scale(.88)"/>
+      <use href="#filled-pot-coin" transform="translate(158 141) rotate(-8)"/>
+      <use href="#filled-pot-coin" transform="translate(190 139) rotate(5) scale(.96)"/>
+      <use href="#filled-pot-coin" transform="translate(223 140) rotate(-6) scale(1.02)"/>
+      <use href="#filled-pot-coin" transform="translate(256 145) rotate(8) scale(.94)"/>
+      <use href="#filled-pot-coin" transform="translate(289 148) rotate(-5) scale(.86)"/>
+      <g clip-path="url(#filled-pot-mouth)">
+        <g class="filled-coin-drop"><use href="#filled-pot-coin" transform="translate(150 18) rotate(-14) scale(.85)"/></g>
+        <g class="filled-coin-drop delay-one"><use href="#filled-pot-coin" transform="translate(210 2) rotate(11) scale(.8)"/></g>
+        <g class="filled-coin-drop delay-two"><use href="#filled-pot-coin" transform="translate(270 27) rotate(-8) scale(.9)"/></g>
+      </g>
+      <path d="M84 137C100 154 151 165 210 165S320 154 336 137" stroke="#09090D" stroke-width="13" stroke-linecap="round"/>
+      <path d="M91 133C111 117 159 109 210 109S309 117 329 133" stroke="#69636E" stroke-width="5" stroke-linecap="round"/>
+    </svg>
+
+    <!-- Planned earnings -->
+    <rect x="18" y="403" width="842" height="565" rx="24" fill="#FFFFFF" stroke="#EDECF3"/>
+    <text x="56" y="451" fill="#29273B" font-size="22" font-weight="750">Planned earnings</text>
+    <text x="56" y="480" fill="#858393" font-size="14">Money you could earn soon</text>
+    <rect x="686" y="426" width="136" height="36" rx="18" fill="#F0EFFF"/>
+    <text x="754" y="449" fill="#625AE0" font-size="12" font-weight="700" text-anchor="middle">6 PLANNED</text>
+
+    <rect x="56" y="511" width="766" height="47" rx="11" fill="#F8F7FB"/>
+    <text x="79" y="541" fill="#8B8998" font-size="12" font-weight="750" letter-spacing=".5">DATE</text>
+    <text x="250" y="541" fill="#8B8998" font-size="12" font-weight="750" letter-spacing=".5">PLANNED EARNING</text>
+    <text x="799" y="541" fill="#8B8998" font-size="12" font-weight="750" letter-spacing=".5" text-anchor="end">POTENTIAL</text>
+
+    <text x="79" y="596" fill="#6D6B7A" font-size="12">Mon, 20 May</text>
+    <circle cx="222" cy="590" r="15" fill="#FFF4E1"/>
+    <path d="M216 590H228M222 584V596" stroke="#DB9A3C" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="250" y="587" fill="#373548" font-size="14" font-weight="700">Weekly allowance</text>
+    <text x="250" y="605" fill="#92909F" font-size="11">Regular pocket money</text>
+    <text x="799" y="596" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$5.00</text>
+    <path d="M56 622H822" stroke="#F0EFF5"/>
+
+    <text x="79" y="656" fill="#6D6B7A" font-size="12">Wed, 22 May</text>
+    <circle cx="222" cy="650" r="15" fill="#EAF8F0"/>
+    <path d="M216 650L220 654L228 646" stroke="#47A879" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="250" y="647" fill="#373548" font-size="14" font-weight="700">Help with the garden</text>
+    <text x="250" y="665" fill="#92909F" font-size="11">Chore reward</text>
+    <text x="799" y="656" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$2.00</text>
+    <path d="M56 682H822" stroke="#F0EFF5"/>
+
+    <text x="79" y="716" fill="#6D6B7A" font-size="12">Sat, 25 May</text>
+    <circle cx="222" cy="710" r="15" fill="#F0EFFF"/>
+    <path d="M216 710H228M218 705H226M219 715H225" stroke="#7066DF" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="250" y="707" fill="#373548" font-size="14" font-weight="700">Wash the car</text>
+    <text x="250" y="725" fill="#92909F" font-size="11">Chore reward</text>
+    <text x="799" y="716" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$3.00</text>
+    <path d="M56 742H822" stroke="#F0EFF5"/>
+
+    <text x="79" y="776" fill="#6D6B7A" font-size="12">Mon, 27 May</text>
+    <circle cx="222" cy="770" r="15" fill="#FFF0EA"/>
+    <path d="M216 770H228M222 764V776" stroke="#E48667" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="250" y="767" fill="#373548" font-size="14" font-weight="700">Feed the cat</text>
+    <text x="250" y="785" fill="#92909F" font-size="11">Chore reward</text>
+    <text x="799" y="776" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$1.00</text>
+    <path d="M56 802H822" stroke="#F0EFF5"/>
+
+    <text x="79" y="836" fill="#6D6B7A" font-size="12">Wed, 29 May</text>
+    <circle cx="222" cy="830" r="15" fill="#EAF6FF"/>
+    <path d="M217 826H227V834H217ZM219 824V826M225 824V826" stroke="#5B9AC7" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="250" y="827" fill="#373548" font-size="14" font-weight="700">Sort my books</text>
+    <text x="250" y="845" fill="#92909F" font-size="11">Chore reward</text>
+    <text x="799" y="836" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$1.50</text>
+    <path d="M56 862H822" stroke="#F0EFF5"/>
+
+    <text x="79" y="896" fill="#6D6B7A" font-size="12">Sat, 1 Jun</text>
+    <circle cx="222" cy="890" r="15" fill="#FFF4E1"/>
+    <path d="M216 890H228M222 884V896" stroke="#DB9A3C" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="250" y="887" fill="#373548" font-size="14" font-weight="700">Help with baking</text>
+    <text x="250" y="905" fill="#92909F" font-size="11">Chore reward</text>
+    <text x="799" y="896" fill="#35A36C" font-size="15" font-weight="750" text-anchor="end">+$2.00</text>
+
+    <path d="M56 922H822" stroke="#F0EFF5"/>
+    <text x="56" y="956" fill="#858393" font-size="12">Potential total</text>
+    <text x="822" y="956" fill="#32865C" font-size="14" font-weight="750" text-anchor="end">+$14.50</text>
+
+    <!-- Freeze savings -->
+    <rect x="882" y="403" width="540" height="565" rx="24" fill="#FFFFFF" stroke="#EDECF3"/>
+    <text x="920" y="451" fill="#29273B" font-size="22" font-weight="750">Freeze savings</text>
+    <text x="920" y="480" fill="#858393" font-size="14">Keep money safe until your target.</text>
+    <rect x="1290" y="427" width="92" height="34" rx="17" fill="#EAF8F0"/>
+    <circle cx="1308" cy="444" r="5" fill="#35A36C"/>
+    <text x="1321" y="449" fill="#32865C" font-size="12" font-weight="750">ON</text>
+
+    <rect x="920" y="511" width="464" height="106" rx="18" fill="#F5F3FF"/>
+    <rect x="943" y="536" width="48" height="48" rx="15" fill="#E8E5FF"/>
+    <path d="M957 555V550C957 545 961 541 967 541C973 541 977 545 977 550V555M953 555H981V576H953V555Z" stroke="#655BDB" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="967" cy="563" r="2.5" fill="#655BDB"/>
+    <text x="1008" y="548" fill="#858393" font-size="12" font-weight="650">FREEZE STATUS</text>
+    <text x="1008" y="578" fill="#5149CE" font-size="19" font-weight="750">Savings are locked</text>
+
+    <text x="920" y="669" fill="#858393" font-size="12" font-weight="700" letter-spacing=".6">UNLOCK WHEN SAVINGS REACH</text>
+    <rect x="920" y="691" width="464" height="72" rx="15" fill="#FFFFFF" stroke="#DCD9F2" stroke-width="1.5"/>
+    <text x="947" y="738" fill="#5149CE" font-size="30" font-weight="750">$30.00</text>
+    <text x="1355" y="735" fill="#858393" font-size="12" text-anchor="end">TARGET</text>
+
+    <text x="920" y="806" fill="#373548" font-size="14" font-weight="700">Your progress</text>
+    <text x="1384" y="806" fill="#625AE0" font-size="14" font-weight="750" text-anchor="end">$18.00 / $30.00</text>
+    <rect x="920" y="824" width="464" height="13" rx="6.5" fill="#EFEEF7"/>
+    <rect x="920" y="824" width="278" height="13" rx="6.5" fill="#786FEA"/>
+    <text x="920" y="871" fill="#858393" font-size="13">60% of the way there!</text>
+    <text x="920" y="911" fill="#A09EAC" font-size="12">Ask a grown-up to change your freeze target.</text>
+  </g>
+</svg>

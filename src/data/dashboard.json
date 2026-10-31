@@ -1,0 +1,71 @@
+{
+  "currency": "EUR",
+  "initialBalanceCents": 3079,
+  "savingsTargetCents": 4102,
+  "freezeEnabled": true,
+  "earnings": [
+    {
+      "id": "garden",
+      "date": "2026-10-30",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "allowance",
+      "date": "2026-11-02",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "car",
+      "date": "2026-11-06",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "cat",
+      "date": "2026-11-13",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "books",
+      "date": "2026-11-20",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "baking",
+      "date": "2026-11-27",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "baking",
+      "date": "2026-12-04",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "baking",
+      "date": "2026-12-11",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    },
+    {
+      "id": "baking",
+      "date": "2026-12-18",
+      "title": "Weekly pocket money",
+      "description": "Regular pocket money",
+      "amountCents": 500
+    }
+  ]
+}
