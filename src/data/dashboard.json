@@ -12,6 +12,13 @@
       "amountCents": 500
     },
     {
+      "id": "garden",
+      "date": "2026-11-01",
+      "title": "Tooth fairy",
+      "description": "Gift",
+      "amountCents": 100
+    },
+    {
       "id": "allowance",
       "date": "2026-11-02",
       "title": "Weekly pocket money",
