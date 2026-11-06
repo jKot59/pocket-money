@@ -5,13 +5,6 @@
   "freezeEnabled": false,
   "earnings": [
     {
-      "id": "car",
-      "date": "2026-11-06",
-      "title": "Weekly pocket money",
-      "description": "Regular pocket money",
-      "amountCents": 500
-    },
-    {
       "id": "cat",
       "date": "2026-11-13",
       "title": "Weekly pocket money",
