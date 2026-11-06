@@ -1,8 +1,8 @@
 {
   "currency": "EUR",
-  "initialBalanceCents": 3079,
-  "savingsTargetCents": 4102,
-  "freezeEnabled": true,
+  "initialBalanceCents": 484,
+  "savingsTargetCents": 0,
+  "freezeEnabled": false,
   "earnings": [
     {
       "id": "garden",
