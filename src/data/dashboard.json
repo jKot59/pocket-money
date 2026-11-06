@@ -53,12 +53,12 @@
       "description": "Regular pocket money",
       "amountCents": 500
     },
-        {
+    {
       "id": "garden",
       "date": "2026-12-25",
       "title": "Weekly pocket money",
       "description": "Regular pocket money",
       "amountCents": 500
-    },
+    }
   ]
 }
